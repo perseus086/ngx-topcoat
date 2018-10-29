@@ -1,0 +1,23 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "use-input-property-decorator": false,
+    "use-host-property-decorator": false,
+    "directive-selector": [
+        true,
+        "attribute",
+        "tpc",
+        "camelCase"
+    ],
+    "component-selector": [
+        false,
+        "attribute",
+        "element",
+        "tpc",
+        "kebab-case"
+    ],
+    "component-class-suffix": [
+      true
+    ],
+  }
+}
